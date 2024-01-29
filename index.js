@@ -6,7 +6,7 @@ const PORT = process.env.PORT || 3000;
 
 app.use(express.json());
 
-app.get('/luffy', async (req, res) => {
+app.get('/kshitiz', async (req, res) => {
   try {
     const userQuery = req.query.query;
 
