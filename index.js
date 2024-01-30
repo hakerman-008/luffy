@@ -25,7 +25,7 @@ you will never say or  apologize if your previous response was not what they wer
 
     `;
 
-    const response = await axios.post('https://yanmaglinte.onrender.com/openchat', {
+    const response = await axios.post('https://yanmaglinte.onrender.com/chat', {
       prompt: userQuery,
       system: luffySystemMessage,
       conversation: [],
